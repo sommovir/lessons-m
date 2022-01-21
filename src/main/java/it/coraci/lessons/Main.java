@@ -18,15 +18,11 @@ public class Main {
   
         p.setNome("Luca");
         
+        System.out.println("no");
         p.setCognome("Coraci");
         p.setAnni(84);
         
         System.out.println("Il mio nome è "+p.getNome());
-        
-        
-        
-        
-        
         
     }
     
