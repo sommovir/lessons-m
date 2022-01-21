@@ -27,6 +27,9 @@ public class Main {
         
         System.out.println("Il mio nome è "+p.getNome());
         
+        Computer c = new Computer();
+        c.setModelloTastiera("logitech");
+        System.out.println("il computer ha la tastiera: "+ c.getModelloTastiera());
     }
     
 }
