@@ -8,14 +8,8 @@ package it.coraci.lessons;
  *
  * @author sommovir
  */
-public class Main {
-    
-    public static void main(String[] args) {
-        System.out.println("Ciao");
-        
-        System.out.println("We Marica!");
-        
-        System.out.println("nono");
-    }
-    
+public class Persona {
+
+    String nome;
+
 }
