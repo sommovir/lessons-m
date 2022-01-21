@@ -11,11 +11,23 @@ package it.coraci.lessons;
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("Ciao");
+
+        System.out.println("Ciao Marica");
         
-        System.out.println("We Marica!");
+        Persona p = new Persona();
+  
+        p.setNome("Luca");
         
-        System.out.println("nono");
+        p.setCognome("Coraci");
+        p.setAnni(84);
+        
+        System.out.println("Il mio nome è "+p.getNome());
+        
+        
+        
+        
+        
+        
     }
     
 }
