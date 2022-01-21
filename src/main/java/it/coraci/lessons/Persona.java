@@ -15,7 +15,25 @@ public class Persona {
     private String cognome;
     private int anni;
     
+    public final String INVALID = "NO VALUE"; //si usa mettere le costanti tutte maiuscole
     
+    //METODO COSTRUTTORE
+    // 0. è un metodo! 
+    // 1. è pubblico ( nella maggior parte dei casi ) 
+    // 2. NON ha tipo di ritorno (nemmeno void)
+    // 3. ha per nome, il nome della classe (compresa la maiuscola)
+    public Persona(){
+        this.nome = INVALID;
+        this.cognome = INVALID;
+        this.anni = -1;
+    }
+    
+//    //COSTRUTTORE CON ARGOMENTI
+    public Persona(String nome, String cognome, int anni) {
+        setNome(nome);
+        setCognome(cognome);
+        setAnni(anni);
+    }
 
     //creare metodi getter & Setter
     //SETTERS:

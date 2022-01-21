@@ -16,11 +16,14 @@ public class Main {
         
         Persona p = new Persona();
   
-        p.setNome("Luca");
-        
+        p.setNome("Luca");   
         System.out.println("no");
         p.setCognome("Coraci");
         p.setAnni(84);
+        
+        //utilizzo del costruttore con argomenti
+        
+        Persona p2 = new Persona("Mario", "Mariolini", 22);
         
         System.out.println("Il mio nome è "+p.getNome());
         
