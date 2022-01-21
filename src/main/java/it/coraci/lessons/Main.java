@@ -15,7 +15,7 @@ public class Main {
         
         System.out.println("We Marica!");
         
-        System.out.println("nono");
+        System.out.println("no");
     }
     
 }
