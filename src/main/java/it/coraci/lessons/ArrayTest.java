@@ -91,6 +91,9 @@ public class ArrayTest {
         float media = avg(temperature2);
         System.out.println("la media delle temperature è: "+media);
         
+        for (int i = 0; i < temperature.length; i++) {
+            
+        }
         
         
     }
